@@ -1,0 +1,49 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Bebas Neue", cursive;
+}
+
+header {
+	font-size: 2.5rem;
+	margin: 15px;
+	text-align: center;
+}
+
+body {
+	background-color: #fff0f3;
+}
+
+h3 {
+	margin-top: 15px;
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: space-between;
+	justify-content: center;
+
+	max-width: 100hv;
+}
+
+.cards {
+	margin: 10px;
+	border: 1px solid black;
+	text-align: center;
+	height: 200px;
+	width: 150px;
+	background-color: #fff;
+	border: 0;
+	border-radius: 20px;
+	box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%);
+}
+
+.pokeImg {
+	max-width: 100%;
+}
+
+.pokemonCards {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
